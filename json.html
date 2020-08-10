@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    <section>         
+        <h1>json Tutorial</h1>
+            <div id="content">
+            </div>    
+    </section>
+<script type="text/javascript">
+  var objetoJSON;
+        objetoJSON = {"Nombre":"BryanZapata","Edad":29,
+        "render": function(){alert(document.getElementById('content').innerHTML = objetoJSON.Nombre
+         + " " + objetoJSON.Edad);}};
+
+        objetoJSON.render();
+</script>
+    
+</body>
+</html>

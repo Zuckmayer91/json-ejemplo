@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+    <section>         
+        <h1>json otra manera</h1>
+            <div id="content">
+            </div>    
+    </section>
+<script type="text/javascript">
+
+var objetos = {"personas":[
+{"Nombre":"BryanZapata","Edad":29},
+{"Nombre":"MarcelaGil","Edad":25}
+]};
+
+document.getElementById('content').innerHTML = objetos.personas[0].Nombre;
+  
+</script>
+    
+</body>
+</html>
